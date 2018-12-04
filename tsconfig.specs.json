@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "sourceMap": true,
+        "outDir": "dist_specs"
+    },
+    "files": [
+        "specs/RequireConfigSpecRunner.ts",
+        "specs/summation.spec.ts",
+        "src/summation.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src"
+    ]
+}
