@@ -3,10 +3,13 @@
         "module": "amd",
         "target": "es5",
         "sourceMap": true,
-        "outDir": "dist_app"
+        "outDir": "dist_client"
     },
+    "include": [
+        "src_client"
+    ],
     "exclude": [
         "node_modules",
-        "specs"
+        "scr_specs"
     ]
 }

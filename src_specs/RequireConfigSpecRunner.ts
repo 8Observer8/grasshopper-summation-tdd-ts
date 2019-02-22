@@ -1,5 +1,5 @@
 requirejs.config({
-    baseUrl: "./dist_specs",
+    baseUrl: './dist_specs',
     paths: {
         'jasmine':
             'https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min',
@@ -26,7 +26,7 @@ requirejs.config({
 });
 
 var specs = [
-    'specs/summation.spec'
+    'src_specs/summation.spec'
 ];
 
 require(['jasmine-boot'], (jasmineBoot) =>

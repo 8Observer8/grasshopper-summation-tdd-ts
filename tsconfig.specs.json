@@ -6,12 +6,12 @@
         "outDir": "dist_specs"
     },
     "files": [
-        "specs/RequireConfigSpecRunner.ts",
-        "specs/summation.spec.ts",
-        "src/summation.ts"
+        "src_specs/RequireConfigSpecRunner.ts",
+        "src_specs/summation.spec.ts",
+        "src_client/summation.ts"
     ],
     "exclude": [
         "node_modules",
-        "src"
+        "src_client"
     ]
 }

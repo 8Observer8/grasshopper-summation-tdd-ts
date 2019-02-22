@@ -1,4 +1,4 @@
-import { summation } from '../src/summation';
+import { summation } from '../src_client/summation';
 
 describe('sumation', () =>
 {
